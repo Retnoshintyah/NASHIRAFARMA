@@ -15,7 +15,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 35.000 / strip",
     type: "Tablet",
-    image: "./products/Cardisart.jpg"
+    image: "./assets/products/Cardisart.jpg"
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 70.000",
     type: "Tetes Mata",
-    image: "./products/Moxicare.jpg"
+    image: "/assets/products/Moxicare.jpg"
   },
   {
     id: 5,
