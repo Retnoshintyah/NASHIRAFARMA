@@ -15,7 +15,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 35.000 / strip",
     type: "Tablet",
-    image: "/assets/products/Cardisart.jpg"
+    image: "./assets/products/Cardisart.jpg"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 20.000 / strip",
     type: "Tablet",
-    image: "/assets/products/Moxilin.jpg"
+    image: "./assets/products/Moxilin.jpg"
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     storage: "Kulkas (setelah rekonstitusi 14 hari)",
     price: "Rp 25.000",
     type: "Sirup",
-    image: "/assets/products/Cefakid.jpg"
+    image: "./assets/products/Cefakid.jpg"
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 70.000",
     type: "Tetes Mata",
-    image: "/assets/products/Moxicare.jpg"
+    image: "./assets/products/Moxicare.jpg"
   },
   {
     id: 5,
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 16.500",
     type: "Tablet",
-    image: "/assets/products/allerzine.jpg"
+    image: "/assets/products/Allerzine.jpg"
   },
   {
     id: 8,
@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 30.000",
     type: "Suspensi",
-    image: "/assets/products/alcrafat.jpg"
+    image: "/assets/products/Alcrafat.jpg"
   },
   {
     id: 9,
