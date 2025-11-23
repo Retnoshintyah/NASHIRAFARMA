@@ -15,7 +15,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 35.000 / strip",
     type: "Tablet",
-    image: "/assets/products/cardisart.png"
+    image: "/assets/products/Cardisart.jpg"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 20.000 / strip",
     type: "Tablet",
-    image: "/assets/products/moxilin.png"
+    image: "/assets/products/Moxilin.jpg"
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     storage: "Kulkas (setelah rekonstitusi 14 hari)",
     price: "Rp 25.000",
     type: "Sirup",
-    image: "/assets/products/cefakid.png"
+    image: "/assets/products/Cefakid.jpg"
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 70.000",
     type: "Tetes Mata",
-    image: "/assets/products/moxicare.png"
+    image: "/assets/products/Moxicare.jpg"
   },
   {
     id: 5,
@@ -75,7 +75,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 28.000",
     type: "Suspensi",
-    image: "/assets/products/alumag.png"
+    image: "/assets/products/Alumag.png"
   },
   {
     id: 6,
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 16.500",
     type: "Tablet",
-    image: "/assets/products/allerzine.png"
+    image: "/assets/products/allerzine.jpg"
   },
   {
     id: 8,
@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 30.000",
     type: "Suspensi",
-    image: "/assets/products/alcrafat.png"
+    image: "/assets/products/alcrafat.jpg"
   },
   {
     id: 9,
@@ -135,7 +135,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 28.000",
     type: "Sirup",
-    image: "/assets/products/profen.png"
+    image: "/assets/products/profen.jpg"
   },
   {
     id: 10,
@@ -165,7 +165,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 20.000",
     type: "Tablet",
-    image: "/assets/products/metricon.png"
+    image: "/assets/products/metricon tablet.jpg"
   },
   {
     id: 12,
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 29.500",
     type: "Spray",
-    image: "/assets/products/oxyvent.png"
+    image: "/assets/products/oxyvent drop.png"
   },
   {
     id: 13,
@@ -240,7 +240,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 65.000",
     type: "Infus",
-    image: "/assets/products/vitamin-b.png"
+    image: "/assets/products/vitamin-b.jpg"
   },
   {
     id: 17,
@@ -270,7 +270,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 88.250",
     type: "Tablet",
-    image: "/assets/products/vitaone.png"
+    image: "/assets/products/vitaone.jpg"
   },
   {
     id: 19,
@@ -285,7 +285,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 45.000",
     type: "Infus",
-    image: "/assets/products/dobutamine.png"
+    image: "/assets/products/dobutamin hcl.jpg"
   },
   {
     id: 20,
@@ -327,7 +327,7 @@ export const CSR_ACTIVITIES: CSREvent[] = [
   {
     id: 1,
     title: 'Nashira Farma Green Movement',
-    image: '/assets/csr/green-movement.jpg',
+    image: '/assets/pedulilingkungan.jpg',
     description: 'Sebagai perusahaan yang berorientasi pada kesehatan dan keberlanjutan, Nashira Farma menginisiasi program penanaman pohon bersama masyarakat dan pelajar di berbagai daerah.',
     goals: [
       'Mengurangi dampak pemanasan global',
@@ -345,7 +345,7 @@ export const CSR_ACTIVITIES: CSREvent[] = [
   {
     id: 2,
     title: 'Nashira Farma Blood Care',
-    image: '/assets/csr/blood-care.jpg',
+    image: '/assets/donordarah.jpg',
     description: 'Program donor darah ini merupakan bentuk kontribusi Nashira Farma dalam membantu ketersediaan stok darah nasional, bekerja sama dengan PMI setempat.',
     goals: [
       'Mendukung pemenuhan kebutuhan darah bagi pasien',
@@ -363,7 +363,7 @@ export const CSR_ACTIVITIES: CSREvent[] = [
   {
     id: 3,
     title: 'Beasiswa Nashira Farma',
-    image: '/assets/csr/education.jpg',
+    image: '/assets/pedulipendidikan.jpg',
     description: 'Program pemberian bantuan beasiswa kepada siswa SMA berprestasi maupun kurang mampu sebagai bentuk dukungan terhadap kualitas pendidikan Indonesia.',
     goals: [
       'Membantu memenuhi kebutuhan biaya pendidikan',
@@ -386,10 +386,10 @@ export const TEAM: TeamMember[] = [
   { role: 'Sekretaris Perusahaan', name: 'Apt. Putu Sri Katina, M.Farm., Ph.D' }
 ];
 
-export const ORG_CHART_URL = "/assets/org-chart.png";
+export const ORG_CHART_URL = "/assets/org.png";
 
 // Pastikan file logo disimpan sebagai public/assets/logo.png
-export const LOGO_URL = "/assets/logo.png";
+export const LOGO_URL = "/assets/logo.jpg";
 
 export const CONTACT_INFO = {
   address: "Jl. Raya Industri No. 28, Desa Sidogiri, Kec. Kraton, Kab. Pasuruan, Jawa Timur 67151",

@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <section className="relative bg-slate-900 text-white py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img 
-            src="https://picsum.photos/seed/pharma/1920/1080" 
+            src="/assets/pharmacy.jpg" 
             alt="Laboratorium Farmasi" 
             className="w-full h-full object-cover"
           />

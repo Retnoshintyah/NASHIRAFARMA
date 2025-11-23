@@ -48,10 +48,10 @@ const Profile: React.FC = () => {
             </div>
             <div className="flex justify-center">
               {/* Logo Visualization */}
-              <div className="w-80 h-80 flex items-center justify-center relative p-8">
+                <div className="w-80 h-80 flex items-center justify-center relative p-8">
                  <div className="absolute inset-0 bg-gradient-to-br from-sky-50 to-teal-50 rounded-full opacity-50 blur-xl"></div>
-                 <img src={LOGO_URL} alt="Logo Nashira Farma" className="w-full h-full object-contain relative z-10 drop-shadow-xl" />
-              </div>
+                 <img src={LOGO_URL} alt="Logo Nashira Farma" className="w-full h-full object-cover rounded-full relative z-10 drop-shadow-xl" />
+                </div>
             </div>
           </div>
         </section>
@@ -219,12 +219,10 @@ const Profile: React.FC = () => {
 
         {/* Location Section */}
         <section className="text-center">
-           <h2 className="text-3xl font-bold text-slate-800 mb-8">Lokasi Kami</h2>
+           <h2 className="text-3xl font-bold text-slate-800 mb-8">Denah Pabrik</h2>
            <div className="bg-white p-2 rounded-xl shadow-lg inline-block border border-slate-100">
              <div className="bg-slate-100 rounded-lg p-8 w-full max-w-4xl mx-auto flex flex-col items-center justify-center min-h-[300px]">
-                <Building size={48} className="text-slate-400 mb-4" />
-                <p className="text-slate-500 font-medium">Peta Lokasi Pasuruan</p>
-                <p className="text-slate-400 text-sm mt-2">(Integrasi Google Maps)</p>
+          <img src="/assets/denah.png" alt="Denah Pabrik" className="w-full h-auto mb-4" />
              </div>
            </div>
         </section>
