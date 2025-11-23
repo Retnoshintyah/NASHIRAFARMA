@@ -14,7 +14,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         
         {/* Product Image Section */}
         <div className="aspect-[4/3] bg-white p-4 flex items-center justify-center border-b border-slate-50 relative overflow-hidden">
-          {product.image ? (
+          
+        {/* console.log(product.image) */}
+        {product.image ? (
             <img 
               src={product.image} 
               alt={product.name} 

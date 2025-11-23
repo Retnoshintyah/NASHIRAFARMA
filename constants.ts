@@ -90,7 +90,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 45.000",
     type: "Tablet",
-    image: "/assets/products/corvasta.png"
+    image: "/assets/products/Corvasta.png"
   },
   {
     id: 7,
@@ -135,7 +135,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 28.000",
     type: "Sirup",
-    image: "/assets/products/profen.jpg"
+    image: "/assets/products/Profen.jpg"
   },
   {
     id: 10,
@@ -150,7 +150,7 @@ export const PRODUCTS: Product[] = [
     storage: "<25°C",
     price: "Rp 45.000",
     type: "Injeksi",
-    image: "/assets/products/ascorvita.png"
+    image: "/assets/products/Ascorvita.png"
   },
   {
     id: 11,
@@ -165,7 +165,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 20.000",
     type: "Tablet",
-    image: "/assets/products/metricon tablet.jpg"
+    image: "/assets/products/Metricon tablet.jpg"
   },
   {
     id: 12,
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 29.500",
     type: "Spray",
-    image: "/assets/products/oxyvent drop.png"
+    image: "/assets/products/Oxyvent Drop.png"
   },
   {
     id: 13,
@@ -195,7 +195,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 25.700",
     type: "Sirup",
-    image: "/assets/products/ambrolex.png"
+    image: "/assets/products/Ambrolex.png"
   },
   {
     id: 14,
@@ -210,7 +210,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 28.500",
     type: "Spray",
-    image: "/assets/products/intrasal.png"
+    image: "/assets/products/Intrasal.png"
   },
   {
     id: 15,
@@ -225,7 +225,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 55.000",
     type: "Injeksi",
-    image: "/assets/products/mepresol.png"
+    image: "/assets/products/Mepresol.png"
   },
   {
     id: 16,
@@ -255,7 +255,7 @@ export const PRODUCTS: Product[] = [
     storage: "<25°C",
     price: "Rp 20.000",
     type: "Salep",
-    image: "/assets/products/opticyclin.png"
+    image: "/assets/products/Opticyclin.png"
   },
   {
     id: 18,
@@ -270,7 +270,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 88.250",
     type: "Tablet",
-    image: "/assets/products/vitaone.jpg"
+    image: "/assets/products/VITAONE.jpg"
   },
   {
     id: 19,
@@ -285,7 +285,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 45.000",
     type: "Infus",
-    image: "/assets/products/dobutamin hcl.jpg"
+    image: "/assets/products/Dobutamin hcl.jpg"
   },
   {
     id: 20,
@@ -300,7 +300,7 @@ export const PRODUCTS: Product[] = [
     storage: "<30°C",
     price: "Rp 30.000",
     type: "Bedak",
-    image: "/assets/products/cetricare.png"
+    image: "/assets/products/Cetricare.png"
   }
 ];
 
@@ -327,7 +327,7 @@ export const CSR_ACTIVITIES: CSREvent[] = [
   {
     id: 1,
     title: 'Nashira Farma Green Movement',
-    image: '/assets/pedulilingkungan.jpg',
+    image: '/assets/PeduliLingkungan.jpg',
     description: 'Sebagai perusahaan yang berorientasi pada kesehatan dan keberlanjutan, Nashira Farma menginisiasi program penanaman pohon bersama masyarakat dan pelajar di berbagai daerah.',
     goals: [
       'Mengurangi dampak pemanasan global',
@@ -345,7 +345,7 @@ export const CSR_ACTIVITIES: CSREvent[] = [
   {
     id: 2,
     title: 'Nashira Farma Blood Care',
-    image: '/assets/donordarah.jpg',
+    image: '/assets/DonorDarah.jpg',
     description: 'Program donor darah ini merupakan bentuk kontribusi Nashira Farma dalam membantu ketersediaan stok darah nasional, bekerja sama dengan PMI setempat.',
     goals: [
       'Mendukung pemenuhan kebutuhan darah bagi pasien',
@@ -363,7 +363,7 @@ export const CSR_ACTIVITIES: CSREvent[] = [
   {
     id: 3,
     title: 'Beasiswa Nashira Farma',
-    image: '/assets/pedulipendidikan.jpg',
+    image: '/assets/PeduliPendidikan.jpg',
     description: 'Program pemberian bantuan beasiswa kepada siswa SMA berprestasi maupun kurang mampu sebagai bentuk dukungan terhadap kualitas pendidikan Indonesia.',
     goals: [
       'Membantu memenuhi kebutuhan biaya pendidikan',
