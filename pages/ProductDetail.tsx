@@ -96,7 +96,7 @@ const ProductDetail: React.FC = () => {
                 </div>
                 
                 <a 
-                  href={`https://wa.me/?text=Halo, saya ingin bertanya tentang produk ${product.name}`}
+                  href={`https://wa.me/6285874080420?text=Halo, saya ingin bertanya tentang produk ${product.name}`}
                   target="_blank" 
                   rel="noreferrer"
                   className="w-full block bg-primary hover:bg-sky-600 text-white font-bold py-4 rounded-xl text-center transition-colors flex items-center justify-center gap-2 shadow-lg shadow-sky-100"
